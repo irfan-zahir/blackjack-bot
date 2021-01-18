@@ -2,7 +2,7 @@ import * as discord from 'discord.js'
 import claim from './commands/claim.js'
 import Blackjack from './game.js'
 
-const token = process.env.BOT_TOKEN
+const TOKEN = process.env.BOT_TOKEN
 
 const emoji = {
     hit: '797124126237524009',
